@@ -1,0 +1,601 @@
+.search-result {
+    background: #f7f7f7 none repeat scroll 0 0;
+    float: left;
+    width: 100%;
+    padding: 15px 0;
+}
+.htldetailspage {
+    float: left;
+    padding: 0 0 25px;
+    width: 100%;
+}
+.rowfstep {
+    display: block;
+    overflow: hidden;
+}
+
+
+.htladdet {
+    float: left;
+    width: 100%;
+    background: #fff;
+    padding: 6px 10px;
+    overflow: hidden;
+    display: block;
+    box-shadow: 0 0 5px 0 rgba(0,0,0,.11);
+    border: 1px solid #dbdbdb;
+    border-bottom: none;
+}
+.htladdet span {
+    font-size: 22px;
+    color: #0095ce;
+    font-weight: 500;
+}
+.marhtldet {
+    display: table;
+    float: left;
+    width: 100%;
+    overflow: hidden;
+    padding: 10px 0;
+}
+.marhtldet .locadres {
+    display: table-cell;
+    font-size: 15px;
+    color: #666;
+    font-weight: 500;
+    float: left;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    width: 80%;
+}
+.htlratpz {
+    display: table-cell;
+    float: right;
+    line-height: 10px;
+    direction: rtl;
+}
+.locadres .fa {
+    font-size: 18px;
+    margin-right: 3px;
+}
+.rating span.star, .rating-no span.star {
+    font-family: FontAwesome;
+    font-weight: 400;
+    font-style: normal;
+    display: inline-block;
+}
+.rating span.star:before, .rating-no span.star:before {
+    content: "\f006";
+    padding-right: 1px;
+    color: #777;
+}
+.htldtdv {
+    float: left;
+    width: 100%;
+    overflow: hidden;
+    display: block;
+    -webkit-box-shadow: 0 0 5px 0 rgba(0,0,0,.11);
+    -moz-box-shadow: 0 0 5px 0 rgba(0,0,0,.11);
+    -ms-box-shadow: 0 0 5px 0 rgba(0,0,0,.11);
+    -o-box-shadow: 0 0 5px 0 rgba(0,0,0,.11);
+    box-shadow: 0 0 5px 0 rgba(0,0,0,.11);
+    border: 1px solid #dbdbdb;
+    position: relative;
+}
+#hotel_top.owl-theme {
+    position: relative;
+}
+#hotel_top .item {
+    padding: 0;
+    color: #fff;
+    text-align: center;
+    width: 100%;
+}
+#hotel_top img {
+    height: 363px;
+    max-height: 363px;
+    display: block;
+    width: 100%;
+}
+.owl-carousel .owl-item{padding:0;}
+#hotel_bottom {
+    margin: 8px 0;
+    float: left;
+    width: 100%;
+    overflow: hidden;
+}
+#hotel_bottom .item {
+    cursor: pointer;
+    padding: 0 5px;
+}
+#hotel_bottom .owl-item.synced .item img {
+    -webkit-filter: grayscale(0%);
+    filter: grayscale(0%);
+    border: 3px solid #fff001;
+}
+
+#hotel_bottom .owl-item .item img {
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+}
+#hotel_bottom img {
+    width: 100%;
+    height: 90px;
+    max-height: 90px;
+    overflow: hidden;
+    display: block;
+}
+
+.htlmapdtls {
+    position: absolute;
+    top: 45px;
+    right: 30px;
+    font-size: 35px;
+    height: 50px;
+    width: 50px;
+    line-height: 50px;
+    text-align: center;
+    background: #fff001;
+    color: #fff;
+    border-radius: 10px;
+    z-index: 9;
+}
+.htlmapdtls:hover {
+    background: rgba(255,255,255,0.7);
+    color: #fff001;
+    height: 50px;
+    width: 50px;
+    border-radius: 10px;
+    transform: scale(1.2);
+    transition: all 300ms ease-in-out;
+}
+
+
+.htlfull_dtls {
+    float: left;
+    width: 100%;
+    background: #fff;
+    padding: 10px 15px;
+    margin: 12px 0 0;
+    box-shadow: 0 0 5px 0 rgba(0,0,0,.11);
+}
+.htlamtnyt {
+    float: left;
+    width: 100%;
+    display: block;
+    overflow: hidden;
+    border-bottom: 1px solid #d0d0d0;
+    padding-bottom: 10px;
+}
+.amthtlrs {
+    padding: 0;
+    margin: 0;
+    font-weight: bold;
+    font-size: 35px;
+    color: #00a9d6;
+}
+
+.stdrmac {
+    display: table;
+    float: left;
+    overflow: hidden;
+    width: 100%;
+    padding: 5px 0;
+}
+.pernyt {
+    font-size: 15px;
+    color: #999;
+    padding: 0 5px;
+    font-weight: 500;
+}
+.stdnonaclt {
+    display: table-cell;
+    float: left;
+    font-size: 18px;
+    color: #383e45;
+    font-weight: 500;
+}
+.htlamtnytstd {
+    float: left;
+    width: 100%;
+    overflow: hidden;
+    display: block;
+    padding: 8px 0;
+}
+.amthtlrsstd {
+    font-size: 22px;
+    color: #00a9d6;
+    font-weight: bold;
+    margin: 0;
+    padding: 10px 0;
+}
+.stdnonacltfre {
+    display: table-cell;
+    float: left;
+    font-size: 16px;
+    color: #383e45;
+    font-weight: 500;
+}
+.untdate {
+    display: table-cell;
+    float: right;
+    font-size: 16px;
+    font-weight: 400;
+    color: #5e6063;
+    line-height: 27px;
+}
+.cheoutdv {
+    float: left;
+    width: 100%;
+    background: #efefef;
+    padding: 12px 15px;
+    /* overflow: hidden; */
+    box-shadow: 0 0 5px 0 rgba(0,0,0,.11);
+}
+.chkdatetacell {
+    display: table;
+    float: left;
+    width: 100%;
+    overflow: hidden;
+    padding: 10px 0;
+}
+.chkin {
+    display: table-cell;
+    font-size: 16px;
+    color: #383e45;
+    font-weight: 600;
+    float: left;
+}
+.chkdate {
+    display: table-cell;
+    font-size: 15px;
+    color: #383e45;
+    font-weight: 500;
+    float: right;
+}
+.htlbkbtn {
+    float: left;
+    width: 100%;
+    padding: 16px;
+    background: #fff;
+    overflow: hidden;
+    box-shadow: 0 0 5px 0 rgba(0,0,0,.11);
+}
+
+.fuldownsct {
+    float: left;
+    width: 100%;
+}
+.shdoww {
+    box-shadow: none;
+}
+
+.shdoww {
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.13);
+    display: block;
+    overflow: hidden;
+}
+.tab_htl_detail .responsive-tabs {
+    display: none !important;
+}
+
+.fulldetab .nav-tabs {
+    background: none;
+    border: 1px solid #dbdbdb;
+}
+.fulldetab .nav-tabs > li {
+    background: #fff;
+    margin: 0;
+    width: 33.3333%;
+    text-align: center;
+    color: #009ad0;
+    border: 1px solid #009ad0;
+}
+.fulldetab .nav-tabs > li > a {
+    border: 0 none;
+    border-radius: 0;
+    color: #009ad0;
+    font-size: 21px;
+    margin: 0;
+    padding: 10px 0;
+}
+.fulldetab .nav-tabs > li.active a {
+    background: none repeat scroll 0 0 #009ad0;
+    color: #fff;
+}
+.tab_htl_detail .tab-content>.tab-pane {
+    display: block !important;
+}
+.innertabs {
+    background: none repeat scroll 0 0 #ffffff;
+    float: left;
+    width: 100%;
+    box-shadow: none;
+    padding: 10px 0px;
+    margin-bottom: 20px;
+}
+.mobile_view_header {
+    display: block !important;
+    font-size: 18px;
+    color: #c8ffd7;
+    color: #0096ce;
+    margin: 0px;
+    padding: 10px 15px;
+    font-weight: bold;
+    float: left;
+}
+
+
+.padinnerntb {
+    float: left;
+    width: 100%;
+    padding: 0;
+}
+.short-text {
+    overflow: hidden;
+    height: 100px;
+}
+.full-text {
+    height: auto;
+}
+.lettrfty {
+    color: #333;
+    display: block;
+    font-size: 16px;
+    line-height: 30px;
+    overflow: hidden;
+    padding: 15px;
+}
+.show-more {
+    text-align: right;
+    display: block !important;
+    padding-right: 15px;
+}
+.show-more a {
+    color: #fff;
+    font-size: 12px;
+    cursor: pointer;
+    padding: 3px 10px;
+    display: inline-block;
+    text-align: right;
+    background: #4cb849;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.responsive-tabs-container[class*="accordion-"] .accordion-link {
+    background-color: #595959;
+    border-radius: 3px;
+    color: #fff;
+    display: none;
+    float: left;
+    margin-bottom: 10px;
+    padding: 15px;
+    width: 100%;
+}
+.fulldowny {
+    background: none repeat scroll 0 0 #f6f6f6;
+    float: left;
+    padding: 0 0 10px;
+    width: 100%;
+}
+.mobile_view_header {
+    display: block !important;
+    font-size: 18px;
+    color: #c8ffd7;
+    color: #0096ce;
+    margin: 0px;
+    padding: 10px 15px;
+    font-weight: bold;
+    float: left;
+}
+.short-text1 {
+    overflow: hidden;
+    height: 245px;
+}
+
+.romlistnh {
+    background: none repeat scroll 0 0 #f4f4f4;
+    float: left;
+    width: 100%;
+}
+.tab_htl_detail .romsoutdv {
+    background: #fff;
+    padding: 10px 15px;
+}
+
+.romsoutdv {
+    float: left;
+    width: 100%;
+    /* overflow: hidden; */
+    display: block;
+    background: none;
+    padding: 20px;
+}
+.romsoutsep {
+    background: #efefef;
+    overflow: hidden;
+    display: none;
+    padding: 10px 0;
+    border: 1px solid #dbdbdb;
+}
+.romstitout {
+    font-size: 21px;
+    font-weight: 400;
+    padding: 0 10px;
+}
+.romconoutdv {
+    float: left;
+    width: 100%;
+    display: block;
+    /* overflow: hidden; */
+    /* opacity: 0.4; */
+    background: #fff;
+    margin: 0 0 8px 0;
+    border: 1px solid #e6e6e6;
+}
+.romsfst {
+    float: left;
+    width: 100%;
+    padding: 10px;
+    /* overflow: hidden; */
+}
+.romtypestd {
+    font-size: 20px;
+    float: left;
+    display: block;
+    width: 100%;
+    text-align: left;
+    overflow: hidden;
+    color: #0779bb;
+}
+.noof_adult {
+    text-align: left;
+    float: left;
+    font-size: 14px;
+    width: 100%;
+    font-weight: 400;
+    padding: 3px 0;
+    color: #333;
+}
+.noof_adult .fa {
+    padding: 0 8px 0 0;
+    font-size: 13px;
+}
+.mobile_hide {
+    display: inline-block;
+}
+
+.romtypefrecan {
+    font-size: 15px;
+    /* color: #333; */
+    color: #fc901b;
+    text-align: left;
+    float: left;
+    width: 100%;
+    padding: 0;
+    font-weight: 500;
+}
+.shwrmsdv {
+    font-size: 13px;
+    font-weight: 500;
+    display: block;
+    float: left;
+    margin: 5px 0;
+    /* text-transform: uppercase; */
+    color: #39bffb;
+}
+.noof_ave {
+    text-align: left;
+    float: left;
+    width: 45%;
+    font-size: 13px;
+    color: #fff;
+    margin: 1px 5px;
+    padding: 2px 4px;
+    background: #3caf6f;
+    border-radius: 3px;
+     overflow: hidden; 
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.noof_ave .fa {
+    border-radius: 5px;
+    /* border: 2px solid #00a680; */
+    text-align: center;
+    font-size: 10px;
+    line-height: 14px;
+    margin-right: 5px;
+    color: #fff;
+}
+
+.rombtndv {
+    width: 35%;
+    text-align: center;
+    float: left;
+    margin: 11px auto 0;
+    font-size: 20px;
+    padding: 5px;
+    line-height: 36px;
+}
+.romtyprice {
+    color: #00a9d6;
+    font-size: 22px;
+    width: 64%;
+    text-align: left;
+    float: left;
+}
+.romtyprice .ninenyt {
+    color: #666;
+    font-size: 14px;
+    text-align: left;
+    margin: 10px;
+}
+.show-rooms {
+    text-align: right;
+    display: block !important;
+    float: left;
+    width: 100%;
+    padding-right: 15px;
+}
+.show-rooms a {
+    color: #fff;
+    font-size: 12px;
+    cursor: pointer;
+    padding: 3px 10px;
+    display: inline-block;
+    text-align: right;
+    background: #4cb849;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.htlfac_lity {
+    padding: 10px 15px;
+}
+.facltyid {
+    color: #383e45;
+    display: block;
+    font-size: 14px;
+    overflow: hidden;
+    padding: 5px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.facltyid .glyphicon {
+    margin-right: 5px;
+}
+.romtypefrecan p {
+    /* color: #00a680; */
+    color: #000;
+    font-weight: 500;
+    font-size: 16px;
+    padding: 0;
+    margin: 0 0 0 5px;
+    display: inline-block;
+}
+
+.romsfst p{margin: 0 0 10px;}
+.htlmapdtls i {line-height: 50px;}
+
+.owl-theme .owl-controls .owl-buttons div {
+    position: absolute;
+}
+.owl-theme .owl-controls .owl-buttons .owl-next{
+	right: 4px;
+    top: 8px;
+    background: url(../images/next_icon.png) no-repeat right 5px;
+    width: 45px;
+    height: 73px;
+    font-size: 0;
+}
+.owl-theme .owl-controls .owl-buttons .owl-prev {
+    left: 4px;
+    top: 8px;
+    background: url(../images/prev_icon.png) no-repeat left 5px;
+    width: 46px;
+    height: 73px;
+    font-size: 0;
+}
+
+
+.rm_nht{font-size: 14px;font-weight: normal;}
